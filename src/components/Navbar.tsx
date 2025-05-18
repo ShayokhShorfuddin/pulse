@@ -42,10 +42,9 @@ function HorizontalLinks() {
 				<a href="/">Blog</a>
 			</li>
 			<li>
-				{/* TODO: Add the shadow effect */}
 				<button
 					type="button"
-					className="hover:cursor-pointer px-3 py-1 border-2 border-[#00ad6a]"
+					className="relative border-2 cursor-pointer bg-transparent hover:shadow-[-5px_4px_#00ad6a] hover:translate-x-[5px] hover:translate-y-[-5px] duration-200 px-3 py-1 border-[#00ad6a]"
 				>
 					Sign Up
 				</button>
@@ -92,3 +91,5 @@ function MobileNavbarDropdown({ isDropdownOpen }: { isDropdownOpen: boolean }) {
 		</ul>
 	);
 }
+
+// TODO: After asking for a review from Reddit and Tailwind community, polish the navbar
