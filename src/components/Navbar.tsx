@@ -7,7 +7,7 @@ export default function Navbar() {
 
 	return (
 		<header>
-			<nav className="relative flex justify-between items-center px-5 lg:px-[7rem] py-5 md:py-10">
+			<nav className="relative flex justify-between items-center px-5 lg:px-[7rem] py-5 border-b-1 border-neutral-200 sm:border-b-0">
 				<img src={PulseLogo} alt="Pulse logo" />
 
 				<HorizontalLinks />
