@@ -1,5 +1,5 @@
 import PulseLogo from "@/assets/pulse-logo.svg";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -15,9 +15,21 @@ export default function Navbar() {
 				<button
 					type="button"
 					className="sm:hidden hover:cursor-pointer p-2"
-					onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+					onClick={() => {
+						if (isDropdownOpen) {
+							document.body.style.overflow = "auto";
+							setIsDropdownOpen(false);
+						} else {
+							document.body.style.overflow = "hidden";
+							setIsDropdownOpen(true);
+						}
+					}}
 				>
-					<Menu color="#00ad6a" size={28} />
+					{isDropdownOpen ? (
+						<X color="#00ad6a" size={28} />
+					) : (
+						<Menu color="#00ad6a" size={28} />
+					)}
 				</button>
 
 				<MobileNavbarDropdown isDropdownOpen={isDropdownOpen} />
