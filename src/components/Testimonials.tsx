@@ -37,7 +37,7 @@ const quotes: QuoteItem[] = [
 
 export default function Testimonials() {
 	return (
-		<section className="mt-10 lg:mt-20 text-center px-5">
+		<section className="mt-10 lg:mt-20 text-center px-5 border-b border-neutral-200 pb-14">
 			<p className="text-[clamp(1.3rem,4.2vw,2.5rem)] font-bold">
 				Business owners trust Pulse.
 			</p>
@@ -45,7 +45,7 @@ export default function Testimonials() {
 				Below are real quotes from business owners.
 			</p>
 
-			<div className="flex flex-col items-center max-w-lg gap-y-20 mx-auto mt-16 text-left">
+			<div className="flex flex-col items-center max-w-lg gap-y-16 mx-auto mt-16 text-left">
 				{quotes.map((quote) => (
 					<div key={quote.quote}>
 						<p className="text-xl font-bold">"{quote.quote}"</p>
