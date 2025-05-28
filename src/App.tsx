@@ -1,4 +1,5 @@
 import Blogs from "./components/Blogs";
+import CTA from "./components/CTA";
 import Cashflow from "./components/Cashflow";
 import CustomerTestimonial from "./components/CustomerTestimonial";
 import Features from "./components/Features";
@@ -18,6 +19,7 @@ export default function App() {
 			<Blogs />
 			<Features />
 			<Cashflow />
+			<CTA />
 		</>
 	);
 }
