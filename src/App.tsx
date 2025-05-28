@@ -1,3 +1,4 @@
+import Blogs from "./components/Blogs";
 import CustomerTestimonial from "./components/CustomerTestimonial";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ export default function App() {
 			<Testimonials />
 			<CustomerTestimonial />
 			<SmallBusiness />
+			<Blogs />
 		</>
 	);
 }

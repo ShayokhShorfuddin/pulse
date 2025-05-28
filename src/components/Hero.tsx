@@ -9,7 +9,7 @@ export default function Hero() {
 				survive that expense.
 			</h1>
 
-			<p className="mt-4 text-sm font-semibold text-neutral-700 mx-5 lg:mx-[7rem] max-w-xl">
+			<p className="mt-6 text-sm font-semibold text-neutral-700 mx-5 lg:mx-[7rem] max-w-xl">
 				Do you know how much money you'll have in two weeks? Two months? Two
 				years? Business owners who use Pulse have better cash flow habits and a
 				firm grasp on the pulse of their business.
@@ -19,7 +19,7 @@ export default function Hero() {
 
 			<button
 				type="button"
-				className="bg-[#00ad6a] py-2.5 px-5 mt-4 text-white font-bold hover:cursor-pointer mx-5 lg:mx-[7rem]"
+				className="bg-[#00ad6a] py-2.5 px-5 mt-6 text-white font-bold hover:cursor-pointer mx-5 lg:mx-[7rem]"
 			>
 				Try 30 Days Free
 			</button>
@@ -31,7 +31,7 @@ export default function Hero() {
 				</a>
 			</p>
 
-			<img src={HeroChart} alt="" className=" -mt-[3rem] min-w-[50rem]" />
+			<img src={HeroChart} alt="" className="-mt-[3rem] min-w-[50rem]" />
 		</section>
 	);
 }

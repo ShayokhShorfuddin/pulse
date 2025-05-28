@@ -38,10 +38,10 @@ const quotes: QuoteItem[] = [
 export default function Testimonials() {
 	return (
 		<section className="mt-10 lg:mt-20 text-center px-5 border-b border-neutral-200 pb-14">
-			<p className="text-[clamp(1.3rem,4.2vw,2.5rem)] font-bold">
+			<p className="text-[clamp(1.7rem,4.2vw,2.5rem)] font-bold leading-tight">
 				Business owners trust Pulse.
 			</p>
-			<p className="mt-1 sm:mt-2 text-neutral-600">
+			<p className="mt-4 text-neutral-600">
 				Below are real quotes from business owners.
 			</p>
 
