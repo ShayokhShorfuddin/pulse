@@ -1,4 +1,5 @@
 import Blogs from "./components/Blogs";
+import Cashflow from "./components/Cashflow";
 import CustomerTestimonial from "./components/CustomerTestimonial";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
@@ -16,6 +17,7 @@ export default function App() {
 			<SmallBusiness />
 			<Blogs />
 			<Features />
+			<Cashflow />
 		</>
 	);
 }
