@@ -38,25 +38,23 @@ const BlogsData: Blog[] = [
 
 export default function Blogs() {
 	return (
-		<section>
-			<div className="mt-20 px-5">
-				<div className="mx-auto text-center max-w-lg">
-					<p className="text-[clamp(1.7rem,4.2vw,2.5rem)] font-bold leading-tight">
-						Pulse helps real businesses survive & thrive.
-					</p>
+		<section className="mt-20 px-5">
+			<div className="mx-auto text-center max-w-lg">
+				<p className="text-[clamp(1.7rem,4.2vw,2.5rem)] font-bold leading-tight">
+					Pulse helps real businesses survive & thrive.
+				</p>
 
-					<p className="mt-6 text-neutral-600 text-lg">
-						Our blog features stories from real business owners with real
-						business advice, in addition to our own insights on how you can
-						build better cash flow habits.
-					</p>
-				</div>
+				<p className="mt-6 text-neutral-600 sm:text-lg">
+					Our blog features stories from real business owners with real business
+					advice, in addition to our own insights on how you can build better
+					cash flow habits.
+				</p>
+			</div>
 
-				<div className="flex flex-wrap justify-center gap-x-6 gap-y-6 mt-18">
-					{BlogsData.map((blog) => (
-						<BlogCard key={blog.title} {...blog} />
-					))}
-				</div>
+			<div className="flex flex-wrap justify-center gap-x-6 gap-y-6 mt-18">
+				{BlogsData.map((blog) => (
+					<BlogCard key={blog.title} {...blog} />
+				))}
 			</div>
 		</section>
 	);

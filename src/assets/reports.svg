@@ -1,0 +1,11 @@
+<svg width="45" height="41" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="8.494%" x2="0%" y2="91.506%" id="a">
+            <stop stop-color="#23EA76" offset="0%"></stop>
+            <stop stop-color="#00AB6A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <path
+        d="M1085 3141h8v-32h4v32h8v-27h4v27h11v2h-45v-2h6v-23h4v23zm1-12h4v1h-4v-1zm0 2h4v1h-4v-1zm0 2h4v1h-4v-1zm0-10h4v1h-4v-1zm0-2h4v1h-4v-1zm0 14h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm12-22h4v1h-4v-1zm0-2h4v1h-4v-1zm0 14h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm12-10h4v1h-4v-1zm0 2h4v1h-4v-1zm0 2h4v1h-4v-1zm0 2h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm0-10h4v1h-4v-1zm0 12h4v1h-4v-1zm-26-28h3v3h-3v-3zm12-9h3v3h-3v-3zm12 5h3v3h-3v-3z"
+        transform="translate(-1075 -3102)" fill="url(#a)" fill-rule="nonzero"></path>
+</svg>
