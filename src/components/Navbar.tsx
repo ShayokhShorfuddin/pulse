@@ -7,6 +7,13 @@ export default function Navbar() {
 
 	return (
 		<header>
+			<a
+				href="#main"
+				className="absolute top-0 left-0 -translate-x-full focus:translate-x-0"
+			>
+				Skip to main content
+			</a>
+
 			<nav className="relative flex justify-between items-center px-5 lg:px-[7rem] py-5 border-b-1 border-neutral-200 ">
 				<img src={PulseLogo} alt="Pulse logo" />
 

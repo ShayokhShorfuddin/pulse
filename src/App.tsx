@@ -14,7 +14,7 @@ export default function App() {
 		<>
 			<Navbar />
 
-			<main>
+			<main id="main">
 				<Hero />
 				<Testimonials />
 				<CustomerTestimonial />
